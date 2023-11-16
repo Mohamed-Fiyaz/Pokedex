@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/images/Logo.ico">
+    <script>
+        if (window.innerWidth <= 768) {
+            document.body.classList.add('small-screen');
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+            <img class="logo" src="/images/Logo.png" alt="">
+            <h1 class="title">Pokédex</h1>
+        </div>
+        <form action="/" method="GET" id="searchForm">
+            <div class="search-bar">
+                <input type="text" id="searchInput" class="search-input" name="search" placeholder="Search Pokémon"
+                    autocomplete="off">
+                <button id="searchButton" class="search-button" type="submit">Search</button>
+            </div>
+        </form>
+    </nav>
+    <div class="pokemon-container">
+        <% for (const pokemon of pokemonList) { %>
+            <div class="pokemon-card" onmouseover="showDetails(this, '<%= pokemon.name %>')"
+                onmouseout="hideDetails(this, '<%= pokemon.name %>')">
+                <h3>
+                    <%= pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1) %>
+                </h3>
+                <img src="<%= pokemon.sprites.front_default %>" alt="<%= pokemon.name %>">
+                <div class="pokemon-details" id="<%= pokemon.name %>Details">
+                    <p>Name: <%= pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1) %>
+                    </p>
+                    <p>HP: <%= pokemon.stats[5].base_stat %>
+                    </p>
+                    <p>Attack: <%= pokemon.stats[4].base_stat %>
+                    </p>
+                    <p>Defense: <%= pokemon.stats[3].base_stat %>
+                    </p>
+                    <p>Special Attack: <%= pokemon.stats[2].base_stat %>
+                    </p>
+                    <p>Speed: <%= pokemon.stats[0].base_stat %>
+                    </p>
+                </div>
+            </div>
+            <% } %>
+    </div>
+    <% if (!searchTerm) { %>
+        <div class="pagination">
+            <% if (currentPage> 1) { %>
+                <a class="button" href="?page=<%= currentPage - 1 %>">Previous</a>
+                <% } %>
+
+                    <form>
+                        <input type="text" id="pageNumberInput" placeholder="<%= currentPage %>" autocomplete="off"
+                            onkeypress="if(event.key === 'Enter') goToPage()">
+                        <button class="button" id="goButton" type="button" onclick="goToPage()">Go</button>
+                    </form>
+
+                    <% if (currentPage < maxPages) { %>
+                        <a class="button" href="?page=<%= currentPage + 1 %>">Next</a>
+                        <% } %>
+        </div>
+        <% } %>
+            <% if (searchTerm) { %>
+                <div class="back">
+                    <a class="button" href="/">Go Back</a>
+                </div>
+                <% } %>
+                    <script src="/js/scripts.js"></script>
+</body>
+</html>
