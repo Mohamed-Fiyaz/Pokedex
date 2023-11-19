@@ -1,13 +1,13 @@
-# ![pokemon_databaseLogo (1)](https://github.com/Mohamed-Fiyaz/Pokedex/assets/124451741/e94a65fa-7661-46b3-8684-7f6e751678a9) Pokedex
+# ![pokemon_databaseLogo (1)](https://github.com/Mohamed-Fiyaz/Pokedex/assets/124451741/e94a65fa-7661-46b3-8684-7f6e751678a9) Pokédex
 
 This is a simple web application built with Node.js and Express that serves as a Pokédex. It allows users to browse through a list of Pokémon, search for specific Pokémon, and view details about each Pokémon.
 
-## Pokemon List Display
+## Pokémon List Display
 <img width="1440" alt="Screenshot 2023-11-19 at 12 19 46 PM" src="https://github.com/Mohamed-Fiyaz/Pokedex/assets/124451741/b0dec6f7-8677-4143-b69f-38a2934e8c4e">
 
 The web app displays a paginated list of Pokémon, showing their names, images, and basic information.
 
-## Pokemon Details
+## Pokémon Details
 <img width="1440" alt="Screenshot 2023-11-19 at 12 31 59 PM" src="https://github.com/Mohamed-Fiyaz/Pokedex/assets/124451741/d9aa72d6-8619-42f1-8728-c2f282bf1f1f">
 
 Hovering over a Pokémon card reveals additional details, including the Pokémon's name, HP, Attack, Defense, Special Attack, and Speed.
