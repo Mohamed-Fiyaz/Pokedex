@@ -13,7 +13,7 @@ The web app displays a paginated list of Pokémon, showing their names, images, 
 Hovering over a Pokémon card reveals additional details, including the Pokémon's name, HP, Attack, Defense, Special Attack, and Speed.
 
 ## Search Functionality
-<img width="1440" alt="Screenshot 2023-11-19 at 12 22 24 PM" src="https://github.com/Mohamed-Fiyaz/Pokedex/assets/124451741/8a396023-8985-45eb-9d2b-f99eb3c29da1">
+<img width="1440" alt="Screenshot 2023-11-19 at 12 31 59 PM" src="https://github.com/Mohamed-Fiyaz/Pokedex/assets/124451741/f9eed81f-ed7c-4b81-867e-9f9b468d5456">
 
 Users can search for specific Pokémon by entering their names in the search bar.
 
