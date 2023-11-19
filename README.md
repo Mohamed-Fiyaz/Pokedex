@@ -28,6 +28,6 @@ The Pokémon list is paginated, allowing users to navigate through different pag
 The application is designed to be responsive, providing a seamless experience on both desktop and mobile devices.
 
 ## Error Handling
-![Uploading Screenshot 2023-11-19 at 3.25.48 PM.png…]()
+<img width="1440" alt="Screenshot 2023-11-19 at 3 25 48 PM" src="https://github.com/Mohamed-Fiyaz/Pokedex/assets/124451741/8494658c-9854-462e-b3a2-45ddbf94132c">
 
 The app gracefully handles errors, redirecting users to an error page if there are issues with fetching Pokémon data.
