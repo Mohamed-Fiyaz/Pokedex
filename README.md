@@ -13,12 +13,12 @@ The web app displays a paginated list of Pokémon, showing their names, images, 
 Hovering over a Pokémon card reveals additional details, including the Pokémon's name, HP, Attack, Defense, and Special Attack.
 
 ## Search Functionality
-<img width="1440" alt="Screenshot 2023-11-19 at 12 31 59 PM" src="https://github.com/Mohamed-Fiyaz/Pokedex/assets/124451741/f9eed81f-ed7c-4b81-867e-9f9b468d5456">
+<img width="1440" alt="Screenshot 2023-11-19 at 3 22 42 PM" src="https://github.com/Mohamed-Fiyaz/Pokedex/assets/124451741/d52eceee-3778-444c-a01e-34d10a5e8bba">
 
 Users can search for specific Pokémon by entering their names in the search bar.
 
 ## Pagination
-<img width="1440" alt="Screenshot 2023-11-19 at 12 20 25 PM" src="https://github.com/Mohamed-Fiyaz/Pokedex/assets/124451741/85e0039f-03f5-4d34-b1bd-45245f40f47e">
+<img width="1440" alt="Screenshot 2023-11-19 at 3 22 25 PM" src="https://github.com/Mohamed-Fiyaz/Pokedex/assets/124451741/360fe32f-6ea0-47b8-a610-d4c2e12820af">
 
 The Pokémon list is paginated, allowing users to navigate through different pages.
 
