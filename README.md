@@ -8,7 +8,7 @@ This is a simple web application built with Node.js and Express that serves as a
 The web app displays a paginated list of Pokémon, showing their names, images, and basic information.
 
 ## Pokémon Details
-<img width="1440" alt="Screenshot 2023-11-19 at 12 31 59 PM" src="https://github.com/Mohamed-Fiyaz/Pokedex/assets/124451741/d9aa72d6-8619-42f1-8728-c2f282bf1f1f">
+<img width="1440" alt="Screenshot 2023-11-19 at 12 20 54 PM" src="https://github.com/Mohamed-Fiyaz/Pokedex/assets/124451741/de1c9944-d281-45b8-ab25-2ab2e0826a8d">
 
 Hovering over a Pokémon card reveals additional details, including the Pokémon's name, HP, Attack, Defense, Special Attack, and Speed.
 
