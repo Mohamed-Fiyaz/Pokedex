@@ -67,17 +67,21 @@
                 <div class="back">
                     <a class="button" href="/">Go Back</a>
                 </div>
-                <% } %>
-                    <footer>
-                        <p>&copy; Mohamed Fiyaz 2024</p>
-                    </footer>
-                    <script>
-                        document.addEventListener("DOMContentLoaded", function () {
-                            if (window.innerWidth <= 768) {
-                                document.body.classList.add('small-screen');
-                            }
-                        });
-                    </script>
-                    <script src="/js/scripts.js"></script>
+                <% } %z
+        <footer>
+            <p>&copy; Mohamed Fiyaz <span id="current-year"></span></p>
+        </footer>
+
+        <script>
+            document.getElementById("current-year").innerText = new Date().getFullYear();
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                if (window.innerWidth <= 768) {
+                    document.body.classList.add('small-screen');
+                }
+                });
+        </script>
+        <script src="/js/scripts.js"></script>
 </body>
 </html>
