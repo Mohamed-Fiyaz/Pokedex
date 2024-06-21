@@ -1,0 +1,18 @@
+.errorBlock {
+    text-align: center;
+    align-items: center;
+}
+
+.goBack {
+    padding: 6px 10px;
+    border: 1px solid #FF5252;
+    border-radius: 4px;
+    background-color: #FF5252;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.goBack:hover {
+    background-color: #FFF;
+    color: #FF5252;
+}
